@@ -1,0 +1,14 @@
+grafana:
+  adminPassword: ""
+postgresql:
+  postgresql:
+    user: "postgres"
+    port: "5432"
+    password: ""
+    name: "postgres"
+  persistence:
+    size: "1Gi"
+graphite:
+  url: "homelab-graphite"
+  persistence:
+    size: 1Gi

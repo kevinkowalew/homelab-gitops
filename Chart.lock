@@ -1,0 +1,18 @@
+dependencies:
+- name: grafana
+  repository: https://grafana.github.io/helm-charts
+  version: 8.6.4
+- name: graphite
+  repository: https://kiwigrid.github.io
+  version: 1.1.0
+- name: docker-registry
+  repository: https://helm.twun.io
+  version: 2.2.3
+- name: postgresql
+  repository: https://cetic.github.io/helm-charts
+  version: 0.2.5
+- name: adminer
+  repository: https://cetic.github.io/helm-charts
+  version: 0.2.1
+digest: sha256:1eecf2fa960c5d9e182ddd80c4736d09d3f912655b1d76b0137414803043449f
+generated: "2025-03-02T13:08:26.55056-06:00"
