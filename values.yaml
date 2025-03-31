@@ -37,11 +37,3 @@ open-webui:
     annotations: {}
     port: 80
     containerPort: 8080
-docker-registry:
-  garbageCollect:
-    enabled: false
-    deleteUntagged: true
-    schedule: "0 1 * * *"
-  extraEnvVars:
-  - name: REGISTRY_STORAGE_DELETE_ENABLED
-    value: true

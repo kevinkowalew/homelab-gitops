@@ -5,9 +5,6 @@ dependencies:
 - name: graphite
   repository: https://kiwigrid.github.io
   version: 1.1.0
-- name: docker-registry
-  repository: https://helm.twun.io
-  version: 2.2.3
 - name: postgresql
   repository: https://cetic.github.io/helm-charts
   version: 0.2.5
@@ -17,5 +14,5 @@ dependencies:
 - name: open-webui
   repository: https://helm.openwebui.com
   version: 5.20.0
-digest: sha256:628a73e0bf29b2cbd58e6f736c6848e6f4487d151ee097f4a590afcfcc263cdc
-generated: "2025-03-08T00:43:40.797266-06:00"
+digest: sha256:6726967f67d3af8671cd76f558b10faa3a0de963f26bd41a770a3458773479ec
+generated: "2025-03-30T23:46:39.160313-05:00"
