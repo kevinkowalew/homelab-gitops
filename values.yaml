@@ -1,5 +1,5 @@
 grafana:
-  adminPassword: ""
+  adminPassword: "password"
 postgresql:
   postgresql:
     user: "postgres"
