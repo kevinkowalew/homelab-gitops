@@ -37,3 +37,7 @@ open-webui:
     annotations: {}
     port: 80
     containerPort: 8080
+rabbitmq:
+  auth:
+    username: myuser
+    password: mypassword

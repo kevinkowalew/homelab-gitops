@@ -14,5 +14,8 @@ dependencies:
 - name: open-webui
   repository: https://helm.openwebui.com
   version: 5.20.0
-digest: sha256:6726967f67d3af8671cd76f558b10faa3a0de963f26bd41a770a3458773479ec
-generated: "2025-03-30T23:46:39.160313-05:00"
+- name: rabbitmq
+  repository: https://charts.bitnami.com/bitnami
+  version: 16.0.8
+digest: sha256:bf3a41727b3b16f80d717d0d8657c61c1f75d6e872f729b13aadbca548d7d13c
+generated: "2025-06-16T07:52:23.390221-05:00"
