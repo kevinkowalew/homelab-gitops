@@ -38,6 +38,10 @@ open-webui:
     port: 80
     containerPort: 8080
 rabbitmq:
+  metrics:
+    enabled: true
+    serviceMonitor:
+      enabled: true
   auth:
     username: myuser
     password: mypassword
