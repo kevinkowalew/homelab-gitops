@@ -43,7 +43,7 @@ rabbitmq:
       namespace: prod
       interval: 30s
       labels:
-        release: kube-prometheus-stack
+        release: homelab
   auth:
     username: myuser
     password: mypassword
