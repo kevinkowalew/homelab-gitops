@@ -1,5 +1,3 @@
-grafana:
-  adminPassword: "password"
 postgresql:
   postgresql:
     user: "postgres"
@@ -45,3 +43,7 @@ rabbitmq:
   auth:
     username: myuser
     password: mypassword
+kube-prometheus-stack:
+  grafana:
+    adminUser: admin
+    adminPassword: password

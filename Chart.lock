@@ -1,7 +1,4 @@
 dependencies:
-- name: grafana
-  repository: https://grafana.github.io/helm-charts
-  version: 8.6.4
 - name: graphite
   repository: https://kiwigrid.github.io
   version: 1.1.0
@@ -17,5 +14,8 @@ dependencies:
 - name: rabbitmq
   repository: https://charts.bitnami.com/bitnami
   version: 16.0.8
-digest: sha256:bf3a41727b3b16f80d717d0d8657c61c1f75d6e872f729b13aadbca548d7d13c
-generated: "2025-06-16T07:52:23.390221-05:00"
+- name: kube-prometheus-stack
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 74.2.1
+digest: sha256:c5151075a750ac6c66ec3728e2ace036aca726c7300300370835395ab64a483f
+generated: "2025-06-19T18:50:10.591745-05:00"
