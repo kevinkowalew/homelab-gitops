@@ -40,6 +40,8 @@ rabbitmq:
     enabled: true
     serviceMonitor:
       enabled: true
+      namespace: prod
+      interval: 30s
   auth:
     username: myuser
     password: mypassword
