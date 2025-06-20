@@ -42,6 +42,8 @@ rabbitmq:
       enabled: true
       namespace: prod
       interval: 30s
+      labels:
+        release: kube-prometheus-stack
   auth:
     username: myuser
     password: mypassword
