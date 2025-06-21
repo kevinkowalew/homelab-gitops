@@ -42,6 +42,12 @@ rabbitmq:
       enabled: true
       namespace: prod
       interval: 30s
+      default:
+        enabled: true
+      perObject:
+        enabled: true
+      detailed:
+        enabled: true
       labels:
         release: homelab
   auth:
