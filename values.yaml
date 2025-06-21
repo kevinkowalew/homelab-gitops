@@ -44,6 +44,9 @@ rabbitmq:
       interval: 30s
       labels:
         release: homelab
+    promethuesRule:
+      enabled: true
+  extraPlugins: "rabbitmq_promethus"
   auth:
     username: myuser
     password: mypassword
