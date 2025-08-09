@@ -57,3 +57,11 @@ kube-prometheus-stack:
   grafana:
     adminUser: admin
     adminPassword: password
+  prometheus:
+    prometheusSpec:
+      additionalScrapeConfigs:
+        - job_name: "infraapi"
+          static_configs:
+            - targets:
+                - "infraapi:8080"
+          metrics_path: /metrics
