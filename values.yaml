@@ -65,3 +65,8 @@ kube-prometheus-stack:
             - targets:
                 - "infraapi:8080"
           metrics_path: /metrics
+        - job_name: "apigateway"
+          static_configs:
+            - targets:
+                - "apigateway:8080"
+          metrics_path: /metrics
