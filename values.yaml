@@ -70,3 +70,15 @@ kube-prometheus-stack:
             - targets:
                 - "apigateway:8080"
           metrics_path: /metrics
+minio:
+  mode: standalone
+  persistence:
+    size: 10Gi
+  resources:
+    requests:
+      memory: 1Gi
+  rootUser: "user"
+  rootPassword: "password"
+  service:
+    type: ClusterIP
+
