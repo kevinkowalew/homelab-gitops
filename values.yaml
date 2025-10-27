@@ -79,6 +79,9 @@ minio:
       memory: 1Gi
   rootUser: "user"
   rootPassword: "password"
+  users:
+    - accessKey: console
+      secretKey: console
+      policy: consoleAdmin
   service:
     type: ClusterIP
-
