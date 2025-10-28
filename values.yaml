@@ -85,7 +85,7 @@ gitea:
   namespace: prod
   gitea:
     admin:
-      username: user
+      username: admin
       password: password
       email: "kowalewski.ke@gmail.com"
 global:
