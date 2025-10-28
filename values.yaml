@@ -6,10 +6,6 @@ postgresql:
     name: "postgres"
   persistence:
     size: "1Gi"
-graphite:
-  url: "homelab-graphite"
-  persistence:
-    size: 1Gi
 open-webui:
   ollama:
     enabled: true
@@ -83,6 +79,10 @@ minio:
     type: ClusterIP
 gitea:
   namespace: prod
+  deployment:
+    env:
+    - name: ALLOWED_HOST_LIST
+      value: "*"
   gitea:
     admin:
       username: admin
