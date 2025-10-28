@@ -17,5 +17,8 @@ dependencies:
 - name: minio
   repository: https://charts.min.io/
   version: 5.4.0
-digest: sha256:520171285faa14c4dba5e4a856c6f8995df4e662ab8d412702b445fc0a630d7f
-generated: "2025-10-26T14:10:47.286445-05:00"
+- name: gitea
+  repository: https://dl.gitea.com/charts/
+  version: 12.4.0
+digest: sha256:d7bf473cbff515a413872e64c19164f9d00c158affc6107993cd03f31081bb89
+generated: "2025-10-27T20:25:36.229372-05:00"

@@ -81,3 +81,10 @@ minio:
   rootPassword: "password"
   service:
     type: ClusterIP
+gitea:
+  namespace: prod
+  gitea:
+    admin:
+      username: user
+      password: password
+      email: "kowalewski.ke@gmail.com"
