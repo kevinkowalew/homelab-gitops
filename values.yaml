@@ -88,3 +88,6 @@ gitea:
       username: user
       password: password
       email: "kowalewski.ke@gmail.com"
+global:
+  security:
+    allowInsecureImages: true
