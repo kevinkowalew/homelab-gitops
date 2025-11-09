@@ -12,9 +12,6 @@ dependencies:
   - name: adminer
     version: 0.2.1
     repository: https://cetic.github.io/helm-charts 
-  - name: open-webui
-    repository: https://helm.openwebui.com
-    version: 5.20.0
   - name: rabbitmq
     repository: https://charts.bitnami.com/bitnami
     version: 16.0.8

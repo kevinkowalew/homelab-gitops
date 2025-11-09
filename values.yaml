@@ -6,31 +6,6 @@ postgresql:
     name: "postgres"
   persistence:
     size: "1Gi"
-open-webui:
-  ollama:
-    enabled: true
-    ollama:
-      models:
-        pull:
-        - llama3.2:1b
-        run:
-        - llama3.2:1b
-      resources:
-        requests:
-          cpu: 100m
-          memory: 2Gi
-        limits:
-          cpu: 2500m
-          memory: 3Gi
-  pipelines:
-    enabled: false
-  persistence:
-    enabled: false
-  service:
-    type: ClusterIP
-    annotations: {}
-    port: 80
-    containerPort: 8080
 rabbitmq:
   metrics:
     enabled: true

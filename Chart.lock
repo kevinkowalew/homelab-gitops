@@ -5,9 +5,6 @@ dependencies:
 - name: adminer
   repository: https://cetic.github.io/helm-charts
   version: 0.2.1
-- name: open-webui
-  repository: https://helm.openwebui.com
-  version: 5.20.0
 - name: rabbitmq
   repository: https://charts.bitnami.com/bitnami
   version: 16.0.8
@@ -20,5 +17,5 @@ dependencies:
 - name: gitea
   repository: https://dl.gitea.com/charts/
   version: 12.4.0
-digest: sha256:d7bf473cbff515a413872e64c19164f9d00c158affc6107993cd03f31081bb89
-generated: "2025-10-27T20:25:36.229372-05:00"
+digest: sha256:00f0ff98cfa5da69bcec85a879a8fbbb5cc402113bf4112353adfbcfae32a995
+generated: "2025-11-09T11:48:10.505763-06:00"
