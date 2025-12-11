@@ -42,7 +42,7 @@ kube-prometheus-stack:
                 - "apigateway:8080"
           metrics_path: /metrics
 minio:
-  mode: standalone
+  mode: distributed
   persistence:
     size: 10Gi
   resources:
