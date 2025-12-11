@@ -43,12 +43,6 @@ kube-prometheus-stack:
           metrics_path: /metrics
 minio:
   mode: standalone
-  args:
-  - server
-  - /data
-  - --console-address
-  - ":9001"
-  - --compat
   persistence:
     size: 10Gi
   resources:
