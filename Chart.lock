@@ -11,9 +11,6 @@ dependencies:
 - name: kube-prometheus-stack
   repository: https://prometheus-community.github.io/helm-charts
   version: 74.2.1
-- name: minio
-  repository: https://charts.min.io/
-  version: 5.4.0
 - name: gitea
   repository: https://dl.gitea.com/charts/
   version: 12.4.0
